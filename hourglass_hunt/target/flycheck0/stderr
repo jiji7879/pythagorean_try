@@ -1,0 +1,188 @@
+   0.014597800s  INFO prepare_target{force=false package_id=hourglass_hunt v0.1.0 (C:\Users\david\OneDrive\Documentos\pythagorean_try\hourglass_hunt) target="hourglass_hunt"}: cargo::core::compiler::fingerprint: fingerprint error for hourglass_hunt v0.1.0 (C:\Users\david\OneDrive\Documentos\pythagorean_try\hourglass_hunt)/Check { test: false }/TargetInner { name: "hourglass_hunt", doc: true, ..: with_path("C:\\Users\\david\\OneDrive\\Documentos\\pythagorean_try\\hourglass_hunt\\src\\main.rs", Edition2024) }
+   0.014629700s  INFO prepare_target{force=false package_id=hourglass_hunt v0.1.0 (C:\Users\david\OneDrive\Documentos\pythagorean_try\hourglass_hunt) target="hourglass_hunt"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\david\OneDrive\Documentos\pythagorean_try\hourglass_hunt\target\debug\.fingerprint\hourglass_hunt-5a2983dcc0589a5d\bin-hourglass_hunt`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.020601800s  INFO prepare_target{force=false package_id=num-complex v0.4.6 target="num_complex"}: cargo::core::compiler::fingerprint: fingerprint error for num-complex v0.4.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_complex", ["lib"], "C:\\Users\\david\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-complex-0.4.6\\src\\lib.rs", Edition2021) }
+   0.020624100s  INFO prepare_target{force=false package_id=num-complex v0.4.6 target="num_complex"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\david\OneDrive\Documentos\pythagorean_try\hourglass_hunt\target\debug\.fingerprint\num-complex-7e0566145e8c876e\lib-num_complex`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.020832900s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\david\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
+   0.020845000s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\david\OneDrive\Documentos\pythagorean_try\hourglass_hunt\target\debug\.fingerprint\num-traits-c1449d0a444ba234\lib-num_traits`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.021302900s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\david\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\build.rs", Edition2021) }
+   0.021316100s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\david\OneDrive\Documentos\pythagorean_try\hourglass_hunt\target\debug\.fingerprint\num-traits-432361c99c0f45a0\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.023144800s  INFO prepare_target{force=false package_id=hourglass_hunt v0.1.0 (C:\Users\david\OneDrive\Documentos\pythagorean_try\hourglass_hunt) target="hourglass_hunt"}: cargo::core::compiler::fingerprint: fingerprint error for hourglass_hunt v0.1.0 (C:\Users\david\OneDrive\Documentos\pythagorean_try\hourglass_hunt)/Check { test: true }/TargetInner { name: "hourglass_hunt", doc: true, ..: with_path("C:\\Users\\david\\OneDrive\\Documentos\\pythagorean_try\\hourglass_hunt\\src\\main.rs", Edition2024) }
+   0.023159300s  INFO prepare_target{force=false package_id=hourglass_hunt v0.1.0 (C:\Users\david\OneDrive\Documentos\pythagorean_try\hourglass_hunt) target="hourglass_hunt"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\david\OneDrive\Documentos\pythagorean_try\hourglass_hunt\target\debug\.fingerprint\hourglass_hunt-359c3637a9abdac2\test-bin-hourglass_hunt`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   Compiling num-traits v0.2.19
+error: failed to run custom build command for `num-traits v0.2.19`
+note: To improve backtraces for build dependencies, set the CARGO_PROFILE_DEV_BUILD_OVERRIDE_DEBUG=true environment variable to enable debug information generation.
+
+Caused by:
+  process didn't exit successfully: `C:\Users\david\OneDrive\Documentos\pythagorean_try\hourglass_hunt\target\debug\build\num-traits-9761ccd3d88a0d33\build-script-build` (exit code: 101)
+  --- stderr
+
+  thread 'main' (7436) panicked at C:\Users\david\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.5.0\src\lib.rs:160:20:
+  called `Result::unwrap()` on an `Err` value: Error { kind: Other("output path is not a writable directory") }
+  stack backtrace:
+     0: std::panicking::panic_handler
+               at /rustc/59807616e1fa2540724bfbac14d7976d7e4a3860/library\std\src\panicking.rs:689
+     1: core::panicking::panic_fmt
+               at /rustc/59807616e1fa2540724bfbac14d7976d7e4a3860/library\core\src\panicking.rs:80
+     2: core::result::unwrap_failed
+               at /rustc/59807616e1fa2540724bfbac14d7976d7e4a3860/library\core\src\result.rs:1867
+     3: autocfg::new
+     4: build_script_build::main
+     5: std::rt::lang_start
+     6: std::rt::lang_start
+     7: std::rt::lang_start
+     8: std::rt::lang_start_internal::closure$0
+               at /rustc/59807616e1fa2540724bfbac14d7976d7e4a3860/library\std\src\rt.rs:175
+     9: std::panicking::catch_unwind::do_call
+               at /rustc/59807616e1fa2540724bfbac14d7976d7e4a3860/library\std\src\panicking.rs:581
+    10: std::panicking::catch_unwind
+               at /rustc/59807616e1fa2540724bfbac14d7976d7e4a3860/library\std\src\panicking.rs:544
+    11: std::panic::catch_unwind
+               at /rustc/59807616e1fa2540724bfbac14d7976d7e4a3860/library\std\src\panic.rs:359
+    12: std::rt::lang_start_internal
+               at /rustc/59807616e1fa2540724bfbac14d7976d7e4a3860/library\std\src\rt.rs:171
+    13: std::rt::lang_start
+    14: main
+    15: invoke_main
+               at D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:78
+    16: __scrt_common_main_seh
+               at D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288
+    17: BaseThreadInitThunk
+    18: RtlUserThreadStart
+  note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
